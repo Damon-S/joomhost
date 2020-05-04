@@ -430,6 +430,43 @@ a {
     margin-top: 160px;
 }
 
+.reviews-slider .slick-list {
+    margin: 0 -50px;
+}
+
+.reviews-slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reviews-slider .slick-dots li {
+    margin: 0 8px;
+}
+
+.reviews-slider .slick-dots li.slick-active button {
+    background-color: #ffffff;
+    border: 2px solid #2575e7;
+}
+
+.reviews-slider .slick-dots button {
+    font-size: 0;
+    border-radius: 50%;
+    border: none;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    background-color: #267ae9;
+    cursor: pointer;
+
+}
+
+.reviews-slider .slick-track {
+    margin: 0 50px;
+}
+
+.reviews-slider__item {}
+
 .reviews-box {
     display: flex;
     box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
