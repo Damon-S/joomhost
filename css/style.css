@@ -424,14 +424,16 @@ a {
     background-color: #fafafa;
 }
 
-.title {}
-
 .reviews-slider {
     margin-top: 160px;
 }
 
 .reviews-slider .slick-list {
     margin: 0 -50px;
+}
+
+.reviews-slider .slick-track {
+    margin: 0 50px;
 }
 
 .reviews-slider .slick-dots {
@@ -453,6 +455,7 @@ a {
     font-size: 0;
     border-radius: 50%;
     border: none;
+    padding: 0;
     width: 10px;
     height: 10px;
     outline: none;
@@ -461,9 +464,7 @@ a {
 
 }
 
-.reviews-slider .slick-track {
-    margin: 0 50px;
-}
+
 
 .reviews-slider__item {}
 
@@ -500,8 +501,6 @@ a {
 .reviews-box__text {
     margin-bottom: 30px;
 }
-
-.reviews-box__author {}
 
 .reviews-box__author span {
     font-family: 'Roboto', sans-serif;
